@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/op2c/static/css/main.5631672f.chunk.css",
-    "main.js": "/op2c/static/js/main.7c1a4441.chunk.js",
-    "main.js.map": "/op2c/static/js/main.7c1a4441.chunk.js.map",
+    "main.css": "/op2c/static/css/main.a7bddf29.chunk.css",
+    "main.js": "/op2c/static/js/main.a3634995.chunk.js",
+    "main.js.map": "/op2c/static/js/main.a3634995.chunk.js.map",
     "runtime-main.js": "/op2c/static/js/runtime-main.a34cec31.js",
     "runtime-main.js.map": "/op2c/static/js/runtime-main.a34cec31.js.map",
-    "static/js/2.491bad89.chunk.js": "/op2c/static/js/2.491bad89.chunk.js",
-    "static/js/2.491bad89.chunk.js.map": "/op2c/static/js/2.491bad89.chunk.js.map",
+    "static/js/2.6969675e.chunk.js": "/op2c/static/js/2.6969675e.chunk.js",
+    "static/js/2.6969675e.chunk.js.map": "/op2c/static/js/2.6969675e.chunk.js.map",
     "index.html": "/op2c/index.html",
-    "static/css/main.5631672f.chunk.css.map": "/op2c/static/css/main.5631672f.chunk.css.map",
-    "static/js/2.491bad89.chunk.js.LICENSE.txt": "/op2c/static/js/2.491bad89.chunk.js.LICENSE.txt",
+    "static/css/main.a7bddf29.chunk.css.map": "/op2c/static/css/main.a7bddf29.chunk.css.map",
+    "static/js/2.6969675e.chunk.js.LICENSE.txt": "/op2c/static/js/2.6969675e.chunk.js.LICENSE.txt",
     "static/media/Hugo.7276f597.jpg": "/op2c/static/media/Hugo.7276f597.jpg",
     "static/media/fonts.scss": "/op2c/static/media/Oxanium-SemiBold.267dadab.ttf",
     "static/media/Saar.fc712b17.jpg": "/op2c/static/media/Saar.fc712b17.jpg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a34cec31.js",
-    "static/js/2.491bad89.chunk.js",
-    "static/css/main.5631672f.chunk.css",
-    "static/js/main.7c1a4441.chunk.js"
+    "static/js/2.6969675e.chunk.js",
+    "static/css/main.a7bddf29.chunk.css",
+    "static/js/main.a3634995.chunk.js"
   ]
 }
