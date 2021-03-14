@@ -1,0 +1,24 @@
+.footer {
+    font-size: 12px;
+    flex-direction: column;
+
+    .footer-devider {
+        height: 1px;
+        width: 90vw;
+        margin: 1rem 0;
+        margin-left: 5vw;
+        background-color: #bfbebe;
+    }
+
+    .copyright {
+        text-align: center;
+        padding: 10px;
+        background-color: var(--color-light-grey);
+    }
+
+    .footer-text {
+        margin-bottom: 5px;
+        font-size: var(--font-size-normal);
+        text-align: center;
+    }
+}

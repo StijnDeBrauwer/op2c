@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Oxanium-Light;
+    src: url(./Oxanium-Light.ttf);
+}
+
+@font-face {
+    font-family: Oxanium-Medium;
+    src: url(./Oxanium-Medium.ttf);
+}
+
+@font-face {
+    font-family: Oxanium-Regular;
+    src: url(./Oxanium-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oxanium-SemiBold;
+    src: url(./Oxanium-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Oxanium-Bold;
+    src: url(./Oxanium-Bold.ttf);
+}
+
+:root {
+    --font-family-light: Oxanium-Light;
+    --font-family-medium: Oxanium-Medium;
+    --font-family-regular: Oxanium-Regular;
+    --font-family-semiBold: Oxanium-SemiBold;
+    --font-family-bold: Oxanium-Bold;
+
+    --font-size-small: 12px;
+    --font-size-normal: 14px;
+    --font-size-large: 16px;
+    --font-size-xlarge: 18px;
+    --font-size-xxlarge: 24px;
+    --font-size-xxxlarge: 28px;
+}

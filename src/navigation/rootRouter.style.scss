@@ -1,0 +1,14 @@
+.root-router {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .root-router__content {
+        flex-grow: 1;
+        margin-top: var(--header-height);
+    }
+
+    .root-router__footer {
+        flex-shrink: 1;
+    }
+}

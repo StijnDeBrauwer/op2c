@@ -1,0 +1,110 @@
+$arrow-size: 135px;
+$arrow-size-mobile: 60px;
+
+.whatDoWeDo {
+    .card {
+        margin: 1rem;
+    }
+
+    .mission-vision-container {
+        display: flex;
+        padding: 1rem 0;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+
+        & > * {
+            flex: 1;
+        }
+
+        .mission-vision-container__card {
+            text-align: center;
+
+            h1 {
+                color: var(--color-primary);
+            }
+        }
+
+        .mission-vision-container__arrow-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            @media (max-width: 768px) {
+                flex-direction: row;
+                padding: 2rem 0;
+            }
+            .arrow-container__arrow-left {
+                @media (max-width: 768px) {
+                    transform: rotate(135deg);
+                }
+                width: $arrow-size;
+                height: auto;
+                transform: rotate(210deg);
+            }
+            .arrow-container__arrow-right {
+                @media (max-width: 768px) {
+                    transform: rotate(-65deg);
+                }
+                width: $arrow-size;
+                height: auto;
+                transform: rotate(30deg);
+            }
+        }
+    }
+
+    .inspiration-container {
+        margin: 1rem 15vw;
+        text-align: center;
+
+        @media (max-width: 768px) {
+            margin: 1rem 2rem;
+
+            p {
+                margin: 1rem 0;
+            }
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        .card__link {
+            color: var(--color-text);
+            cursor: pointer;
+        }
+    }
+
+    .history-container {
+        margin-top: 2rem;
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--color-text);
+
+            @media (max-width: 768px) {
+                margin-bottom: 1rem;
+                font-size: var(--font-size-xlarge);
+
+                a {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                @media (max-width: 768px) {
+                    width: 50vw;
+                    margin-top: 1rem;
+                }
+                width: 20vw;
+                height: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+@import "reset-css";
+
+html,
+body {
+  width: 100vw;
+  max-width: 100vw;
+  display: flex;
+
+  @media (min-width: 768px) {
+    font-size: var(--font-size-normal);
+  }
+}
+
+body {
+  max-width: 100%;
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-normal);
+
+  @media (min-width: 768px) {
+    font-size: var(--font-size-xlarge);
+  }
+
+  margin: 0;
+  padding: 0;
+
+  h1 {
+    font-size: var(--font-size-large);
+    margin-bottom: 1rem;
+    @media (min-width: 768px) {
+      font-size: var(--font-size-xxlarge);
+    }
+  }
+
+  h2 {
+    font-size: var(--font-size-normal);
+    @media (min-width: 768px) {
+      font-size: var(--font-size-xlarge);
+    }
+  }
+}
+
+a {
+  color: var(--color-primary);
+
+  &:hover {
+    color: var(--color-text);
+  }
+}
+
+.banner {
+  position: relative;
+  color: white;
+  height: 25vh;
+  background-size: cover !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0;
+
+  filter: contrast(150%) brightness(100%) grayscale(1px);
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.45;
+  }
+}
+
+:root {
+  --header-height: 10vh;
+}
