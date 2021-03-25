@@ -19,6 +19,7 @@ const Header: FC<HeaderProps> = ({ className }) => {
     Routes.find((route) => route.route === location.pathname)?.label || "Home";
 
   const navigateToHome = () => {
+    console.log("go to home...");
     history.push("/");
   };
 
@@ -29,8 +30,8 @@ const Header: FC<HeaderProps> = ({ className }) => {
 
       {currentRouteName}
 
-      <div className="logo-container">
-        <img onClick={navigateToHome} src={logo} alt="logo" />
+      <div className="logo-container" onClick={navigateToHome}>
+        <img src={logo} alt="logo" />
       </div>
     </nav>
   );

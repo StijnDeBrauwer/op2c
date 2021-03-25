@@ -18,13 +18,6 @@
             }
 
             margin: 2rem 15vw 1rem 15vw;
-            img {
-                width: 25%;
-                @media (max-width: 768px) {
-                    order: 1;
-                    width: 50%;
-                }
-            }
 
             .card__description {
                 @media (max-width: 768px) {
@@ -45,6 +38,19 @@
                 margin-bottom: 1rem;
             }
             width: 15%;
+        }
+
+        .card__image-container {
+            display: flex;
+            width: 15%;
+
+            @media (max-width: 768px) {
+                order: 1;
+                width: 50%;
+            }
+            img {
+                flex: 1;
+            }
         }
 
         .card__description {

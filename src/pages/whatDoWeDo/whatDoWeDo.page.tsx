@@ -8,7 +8,6 @@ import rol from "../../assets/images/whatDoWeDo/rol.jpg";
 
 const WhatDoWeDoPage = () => {
   const navigateToPage = (url: string): void => {
-    console.log("test..", url);
     window.open(url, "_blank");
   };
 

@@ -1,0 +1,48 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+    text-align: center;
+
+    section {
+        margin: 2rem 0;
+        width: 100%;
+    }
+
+    .contact-page__entry {
+        display: flex;
+        margin: 1rem 0;
+        width: 100%;
+
+        cursor: pointer;
+
+        img {
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-right: 1rem;
+        }
+        a {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: left;
+
+            color: var(--color-text);
+
+            &:hover {
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    .insta {
+        max-width: 100px;
+        width: 25vw;
+        height: auto;
+
+        cursor: pointer;
+    }
+}

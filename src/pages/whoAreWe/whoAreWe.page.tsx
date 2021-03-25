@@ -58,9 +58,7 @@ const WhoAreWePage: FC = () => {
           beïnvloeding gebruiken.
         </div>
 
-        <div className="card__image-container">
-          <img src={Agathe} alt="Agathe" />
-        </div>
+        <img src={Agathe} alt="Agathe" />
       </Card>
 
       <Card className="card" backgroundColor={Colors.text}>
